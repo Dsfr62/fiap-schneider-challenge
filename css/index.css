@@ -1,0 +1,88 @@
+:root {
+    --primary-default: #388604;
+    --secondary-default: #abfcb3;
+    --third-default: #07D51B;
+    --fourth-default: #f3f3f2;
+}
+
+body {
+    max-width: 90rem;
+    height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading-container {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #388604;
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    gap: 1rem;
+    width: 80%;
+    max-width: 30rem;
+    margin: auto;
+}
+
+.calculator-container .field-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field {
+    padding: 0.8rem;
+    border: 0rem;
+    background-color: var(--fourth-default);
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    color: var(--primary-default);
+}
+
+.form-label {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--primary-default);
+}
+
+.btn-1 {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 0rem;
+    border-radius: 0.4rem;
+    background-color: var(--primary-default);
+    color: white;
+    cursor: pointer;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem auto 0rem auto;
+    align-items: center;
+    width: 90%;
+    gap: 1rem;
+}
+
+.result-container .result-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background-color: var(--fourth-default);
+    border-radius: 0.4rem;
+    border: 0.1rem solid var(--primary-default);
+    width: 30%;
+    color: var(--primary-default);
+}

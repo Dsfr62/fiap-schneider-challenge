@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Scheinder Eletric Challenge</title>
 </head>
 <body>
-    <p>Hello world!</p>
+    <main>
+        <div class="heading-container">
+            <h1>Challenge FIAP</h1>
+            <p>Para poder receber um cálculo de projeção, faça a inserção dos dados nos campos e clique no botão de calcular</p>
+        </div>
+        <form class="calculator-container">
+            <div class="field-container">
+                <label class="form-label" for="fuel_type">Combustível utilizado</label>
+                <select class="form-field" id="fuel_type">
+                    <option value="">Selecione aqui</option>
+                    <option value="gasoline">Gasolina</option>
+                    <option value="ethanol">Etanol</option>
+                    <option value="s10">Díesel S10</option>
+                    <option value="s10_plus">Díesel S10 Plus</option>
+                </select>
+            </div>
+            <div class="field-container">
+                <label class="form-label" for="liters">Quantidade em litros</label>
+                <input type="number" class="form-field" id="liters" placeholder="insira o valor em litros" required />
+            </div>
+            <div class="field-container">
+                <label class="form-label" for="period">Período</label>
+                <input type="number" class="form-field" id="period" placeholder="insira o valor em meses" required />
+            </div>
+            <button type="submit" class="btn-1">Calcular</button>
+        </form>
+
+        <div class="result-container">
+            <div class="result-card">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, voluptatibus repellat incidunt, laboriosam numquam nemo quibusdam, autem sequi magnam cum quaerat pariatur magni dicta cupiditate impedit aliquam omnis corrupti illo?</p>
+            </div>
+            <div class="result-card">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, voluptatibus repellat incidunt, laboriosam numquam nemo quibusdam, autem sequi magnam cum quaerat pariatur magni dicta cupiditate impedit aliquam omnis corrupti illo?</p>
+            </div>
+            <div class="result-card">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, voluptatibus repellat incidunt, laboriosam numquam nemo quibusdam, autem sequi magnam cum quaerat pariatur magni dicta cupiditate impedit aliquam omnis corrupti illo?</p>
+            </div>
+        </div>
+    </main>
+    <script src="js/index.js"></script>
 </body>
 </html>
