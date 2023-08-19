@@ -1,5 +1,18 @@
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Righteous */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 :root {
     --primary-default: #3DCD58;
+    --primary-light: #8effaa;
     --secondary-default: #333333;
     --secondary-light: #525252;
     --gray-default: #f3f2f2;
@@ -7,10 +20,10 @@
 }
 
 body {
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
+    width: 100vw;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
 }

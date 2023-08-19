@@ -69,3 +69,12 @@
 .container section .card table tr:hover .row {
     color: var(--primary-default);
 }
+
+.logo-container {
+    display: grid;
+    place-items: center;
+}
+
+.logo-container img {
+    width: 125px;
+}
