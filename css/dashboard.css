@@ -1,4 +1,71 @@
 @import url("./index.css");
-@import url("./navbar.css")
+@import url("./navbar.css");
 
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: space-between;
+    gap: 3rem;
+}
 
+.container section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+}
+
+.container section .card {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0.725rem;
+    margin: 0;
+    border: 0.125rem solid var(--gray-dark);
+    overflow: auto;
+}
+
+.container section .card h3 {
+    margin: 0;
+    color: var(--secondary-default);
+}
+
+.container section .card p {
+    font-size: 1.725rem;
+    margin: 0;
+    font-weight: 600;
+    color: var(--primary-default);
+}
+
+.container section .card table {
+    padding: 0.75rem 0.275rem 0.275rem 0.275rem;
+    margin-top: 0.5rem;
+    border: 0.1rem solid var(--gray-dark);
+    text-align: left;
+}
+
+.container section .card table tr .header {
+    padding-bottom: 0.25rem;
+    border-bottom: 0.1rem solid var(--gray-dark);
+    color: var(--secondary-default);
+}
+
+.container section .card table tr .row {
+    padding: 1rem 0rem;
+}
+
+.container section .card table tr .row {
+    padding: 1rem 0rem;
+    color: var(--secondary-default);
+    cursor: pointer;
+}
+
+.container section .card table tr:hover .row {
+    color: var(--primary-default);
+}
