@@ -3,6 +3,16 @@
 /* Righteous */
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+@font-face {
+    font-family: fontLight;
+    src: url(../font/NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+    font-family: fontRoman;
+    src: url(../font/NeueHaasDisplayRoman.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,17 +23,30 @@
 :root {
     --primary-default: #3DCD58;
     --primary-light: #8effaa;
-    --secondary-default: #333333;
-    --secondary-light: #525252;
+    --secondary-default: #242424;
     --gray-default: #f3f2f2;
     --gray-dark: #eeeded;
+    --red-default: #FF0000;
 }
 
 body {
     min-height: 100vh;
     width: 100vw;
     margin: 0;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: 'fontLight', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+    background-color: #EFEFEF;
+}
+
+.container h1 {
+    color: var(--secondary-default);
 }

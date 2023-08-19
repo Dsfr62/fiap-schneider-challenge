@@ -17,10 +17,10 @@
 }
 
 .form-container .greeting-message {
-    margin-bottom: -0.75rem;
+    margin-bottom: -0.15;
     color: var(--primary-default);
     font-weight: 200;
-    font-family: 'Righteous', Arial, Helvetica, sans-serif;
+    font-family: 'fontRoman', Arial, Helvetica, sans-serif;
     font-size: 1.125rem;
     font-style: italic;
 }

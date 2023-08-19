@@ -1,4 +1,43 @@
 @import url("./index.css");
-@import url("./navbar.css")
+@import url("./navbar.css");
 
+.container .table {
+    width: 100%;
+    height: 800px;
+    overflow: auto;
+}
 
+.container .table table {
+    width: 100%;
+    height: auto;
+    padding: 0.75rem 0.275rem 0.275rem 0.275rem;
+    margin-top: 0.5rem;
+    background-color: #FFFFFF;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.container .table table tr .header {
+    padding-bottom: 0.25rem;
+    border-bottom: 0.2rem solid var(--gray-dark);
+    color: var(--secondary-default);
+}
+
+.container .table table tr .row {
+    padding: 1rem 0rem;
+}
+
+.container .table table tr .row {
+    padding: 1rem 0rem;
+    color: var(--secondary-default);
+    cursor: pointer;
+    border-bottom: 0.1rem solid var(--gray-dark);
+}
+
+.container section table tr:hover .row {
+    color: var(--primary-default);
+}
+
+.container section table tr:last-child .row {
+    border-bottom: 0;
+}

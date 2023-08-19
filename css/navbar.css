@@ -1,34 +1,37 @@
 @import url("./index.css");
 
 nav {
-    height: 100%;
-    width: 12rem;
-    border: 0.125rem solid var(--gray-dark);
-    color: white;
+    height: 100vh;
+    max-width: 13.75rem;
+    width: 20%;
+    background-color: var(--secondary-default);
     margin: 0;
-    padding: 0;
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+
+nav .logo {
+    padding: 1.5rem 0.825rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0.825rem 0rem;
+    margin: 0.625rem 0 0 0;
+    gap: 1rem;
     display: flex;
     flex-direction: column;
     align-items: left;
 }
 
-nav .logo {
-    padding: 1rem 0.825rem;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0.825rem;
-    margin: 1.25rem 0 0 0;
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-
 nav .nav-item {
     font-size: 1.125rem;
     text-decoration: none;
-    color: var(--secondary-default);
+    color: #FFFFFF;
 }
 
 nav .nav-item:hover {
