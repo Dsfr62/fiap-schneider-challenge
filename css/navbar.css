@@ -28,6 +28,13 @@ nav ul {
     align-items: left;
 }
 
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.125rem;
+}
+
 nav .nav-item {
     font-size: 1.125rem;
     text-decoration: none;
@@ -35,5 +42,9 @@ nav .nav-item {
 }
 
 nav .nav-item:hover {
+    color: var(--primary-default);
+}
+
+nav .nav-item#current{
     color: var(--primary-default);
 }

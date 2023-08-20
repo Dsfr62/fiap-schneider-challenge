@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/dashboard.css">
+    <script src="../js/dashboard.js"></script>
     <title>Dashboard</title>
 </head>
 <body>
@@ -11,33 +12,54 @@
         <div class="logo-container">
             <img src="../img/Logo-Alternative.svg" alt="logo" class="logo" width="170" height="130">
             <ul>
-                <li><a href="./dashboard.html" class="nav-item">Dashboard</a></li>
-                <li><a href="./historico.html" class="nav-item">Histórico</a></li>
-                <li><a href="./atividades.html" class="nav-item">Atividades</a></li>
-                <li><a href="./conscientizacao.html" class="nav-item">Conscientização</a></li>
-                <li><a href="./configuracoes.html" class="nav-item">Configurações</a></li>
-                <li><a href="./suporte.html" class="nav-item">Suporte</a></li>
+                <li>
+                    <img src="../img/sidebar-icons/Dashboard.png" alt="Dashboard" />
+                    <a href="./dashboard.html" class="nav-item" id="current">Dashboard</a>
+                </li>
+                <li>
+                    <img src="../img/sidebar-icons/History.png" alt="History" />
+                    <a href="./historico.html" class="nav-item">Histórico</a>
+                </li>
+                <li>
+                    <img src="../img/sidebar-icons/Atividade.png" alt="Atividade" />
+                    <a href="./atividades.html" class="nav-item">Atividades</a>
+                </li>
+                <li>
+                    <img src="../img/sidebar-icons/Consencitzacao.png" alt="Consencitzacao" />
+                    <a href="./conscientizacao.html" class="nav-item">Conscientização</a>
+                </li>
+                <li>
+                    <img src="../img/sidebar-icons/Configuration.png" alt="Configuration" />
+                    <a href="./configuracoes.html" class="nav-item">Configurações</a>
+                </li>
+                <li>
+                    <img src="../img/sidebar-icons/Help.png" alt="Help" />
+                    <a href="./suporte.html" class="nav-item">Suporte</a>
+                </li>
             </ul>
         </div>
-        <a href="./index.html" class="nav-item">Logout</a>
+        <a href="./index.html" class="nav-item" style="display: flex; align-items: center; gap: 0.125rem;">
+            <img src="../img/sidebar-icons/Logout.png" alt="Logout" />
+            Logout
+        </a>
     </nav>
-    <main class="container">
-        <section style="height: 15%;">
+    <main class="container" style="justify-content: space-between;">
+        <section style="height: 15%; max-height: 100px;">
             <div class="card" style="width: 30%; justify-content: space-between;">
                 <h3>Crédito de Carbono</h3>
-                <p>2kg</p>
+                <p>17,73 kgCO2</p>
             </div>
             <div class="card" style="width: 30%; justify-content: space-between;">
                 <h3>Total de Emissão</h3>
-                <p>20kg</p>
+                <p>120,90 kgCO2</p>
             </div>
             <div class="card" style="width: 30%; justify-content: space-between;">
                 <h3>Total de Redução</h3>
-                <p>18kg</p>
+                <p>103,17 kgCO2</p>
             </div>
         </section>
 
-        <section style="height: 40%;">
+        <section style="height: 45%; max-height: 300px;">
             <div class="card" style="width: 50%; justify-content: space-between;">
                 Box
             </div>
@@ -46,30 +68,16 @@
             </div>
         </section>
 
-        <section style="height: 45%;">
+        <section style="height: 45%; max-height: 300px;">
             <div class="card" style="width: 100%; justify-content: start;">
                 <h3>Atividades recomendadas para ganhar crédito de carbono</h3>
-                <table>
+                <table id="atividades_recomendadas">
                     <tr>
                         <th class="header">Título</th>
                         <th class="header">Data</th>
                         <th class="header">Horário</th>
                         <th class="header">Lotação</th>
                         <th class="header">Inscrito</th>
-                    </tr>
-                    <tr>
-                        <td class="row">Jogar Futebol</td>
-                        <td class="row">20/08/2023</td>
-                        <td class="row">17:00</td>
-                        <td class="row">19/36</td>
-                        <td class="row">Sim</td>
-                    </tr>
-                    <tr>
-                        <td class="row">Almoço vegano</td>
-                        <td class="row">20/08/2023</td>
-                        <td class="row">12:00</td>
-                        <td class="row">-</td>
-                        <td class="row">Não</td>
                     </tr>
                 </table>
             </div>

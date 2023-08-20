@@ -1,0 +1,172 @@
+{
+	"dados": [
+		{
+			"titulo": "Utilização de transporte público",
+			"data": "15/07/2023",
+			"tipo": "Redução",
+			"quantidade": "10"
+		},
+		{
+			"titulo": "Uso de bicicleta para o trabalho",
+			"data": "22/06/2023",
+			"tipo": "Redução",
+			"quantidade": "5"
+		},
+		{
+			"titulo": "Desligar equipamentos após o expediente",
+			"data": "10/07/2023",
+			"tipo": "Redução",
+			"quantidade": "2"
+		},
+		{
+			"titulo": "Participação em reunião virtual em vez de voar",
+			"data": "05/06/2023",
+			"tipo": "Redução",
+			"quantidade": "20"
+		},
+		{
+			"titulo": "Uso de veículo pessoal com emissões baixas",
+			"data": "03/07/2023",
+			"tipo": "Emissão",
+			"quantidade": "8"
+		},
+		{
+			"titulo": "Compostagem de resíduos orgânicos",
+			"data": "12/06/2023",
+			"tipo": "Redução",
+			"quantidade": "3"
+		},
+		{
+			"titulo": "Desligamento de luzes não utilizadas",
+			"data": "20/07/2023",
+			"tipo": "Redução",
+			"quantidade": "1"
+		},
+		{
+			"titulo": "Uso de canecas reutilizáveis",
+			"data": "08/06/2023",
+			"tipo": "Redução",
+			"quantidade": "0.5"
+		},
+		{
+			"titulo": "Compra de produtos locais",
+			"data": "17/06/2023",
+			"tipo": "Redução",
+			"quantidade": "4"
+		},
+		{
+			"titulo": "Utilização de energia solar em casa",
+			"data": "25/06/2023",
+			"tipo": "Redução",
+			"quantidade": "15"
+		},
+		{
+			"titulo": "Atividade de reflorestamento voluntário",
+			"data": "30/06/2023",
+			"tipo": "Redução",
+			"quantidade": "30"
+		},
+		{
+			"titulo": "Redução do consumo de carne",
+			"data": "02/07/2023",
+			"tipo": "Redução",
+			"quantidade": "6"
+		},
+		{
+			"titulo": "Uso de lâmpadas de baixo consumo",
+			"data": "18/07/2023",
+			"tipo": "Redução",
+			"quantidade": "2"
+		},
+		{
+			"titulo": "Reciclagem de papel e plástico",
+			"data": "07/06/2023",
+			"tipo": "Redução",
+			"quantidade": "2.5"
+		},
+		{
+			"titulo": "Compartilhamento de carona",
+			"data": "14/07/2023",
+			"tipo": "Redução",
+			"quantidade": "7"
+		},
+		{
+			"titulo": "Uso de sistema de refrigeração eficiente",
+			"data": "09/06/2023",
+			"tipo": "Redução",
+			"quantidade": "3"
+		},
+		{
+			"titulo": "Atividade de limpeza de áreas naturais",
+			"data": "01/06/2023",
+			"tipo": "Redução",
+			"quantidade": "5"
+		},
+		{
+			"titulo": "Uso de torneiras com baixo fluxo de água",
+			"data": "27/06/2023",
+			"tipo": "Redução",
+			"quantidade": "0.8"
+		},
+		{
+			"titulo": "Doação de roupas e objetos",
+			"data": "23/07/2023",
+			"tipo": "Redução",
+			"quantidade": "1.5"
+		},
+		{
+			"titulo": "Uso de sacolas reutilizáveis",
+			"data": "11/06/2023",
+			"tipo": "Redução",
+			"quantidade": "0.3"
+		},
+		{
+			"titulo": "Minimização do uso de plástico descartável",
+			"data": "16/07/2023",
+			"tipo": "Redução",
+			"quantidade": "1"
+		},
+		{
+			"titulo": "Uso de painéis solares em escritório",
+			"data": "21/06/2023",
+			"tipo": "Redução",
+			"quantidade": "12"
+		},
+		{
+			"titulo": "Redução do tempo de banho",
+			"data": "06/07/2023",
+			"tipo": "Redução",
+			"quantidade": "2"
+		},
+		{
+			"titulo": "Atividade de plantio de árvores",
+			"data": "04/06/2023",
+			"tipo": "Redução",
+			"quantidade": "8"
+		},
+		{
+			"titulo": "Uso de produtos de limpeza ecológicos",
+			"data": "26/06/2023",
+			"tipo": "Redução",
+			"quantidade": "1.2"
+		},
+		{
+			"titulo": "Redução do consumo de energia em casa",
+			"data": "13/07/2023",
+			"tipo": "Redução",
+			"quantidade": "7"
+		},
+		{
+			"titulo": "Uso de carregadores eficientes para eletrônicos",
+			"data": "19/06/2023",
+			"tipo": "Redução",
+			"quantidade": "0.7"
+		},
+		{
+			"titulo": "Atividade de conscientização sobre pegada de carbono",
+			"data": "28/06/2023",
+			"tipo": "Redução",
+			"quantidade": "2.5"
+		}
+    ]
+}

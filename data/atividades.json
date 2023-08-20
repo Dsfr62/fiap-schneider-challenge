@@ -1,0 +1,202 @@
+{
+	"dados": [
+		{
+			"titulo": "Semana do ciclismo",
+			"horario": "Ao longo da semana",
+			"data": "07/08/2023",
+			"lotacao": 200,
+			"inscritos": 60,
+			"recomendar": true,
+			"inscrito": false,
+			"descricao": "Participe da Semana do Ciclismo e utilize a bicicleta como meio de transporte. Além de reduzir as emissões de carbono, você estará promovendo um estilo de vida mais saudável e ativo.",
+			"carbono_reduzido": "12 kgCO2"
+		},
+		{
+			"titulo": "Plantio de árvores",
+			"horario": "9h às 12h",
+			"data": "10/08/2023",
+			"lotacao": 50,
+			"inscritos": 10,
+			"recomendar": true,
+			"inscrito": false,
+			"descricao": "Junte-se a nós para plantar árvores em um parque local. As árvores absorvem carbono da atmosfera, contribuindo para a redução dos níveis de CO2. Traga suas luvas e disposição!",
+			"carbono_reduzido": "8 kgCO2"
+		},
+		{
+			"titulo": "Doe eletrodomésticos antigos",
+			"horario": "Dia todo",
+			"data": "15/08/2023",
+			"lotacao": 100,
+			"inscritos": 30,
+			"recomendar": true,
+			"inscrito": true,
+			"descricao": "No dia de hoje, traga seus eletrodomésticos antigos que não utiliza mais para doação. Eles serão reciclados de forma adequada, reduzindo a emissão de resíduos poluentes.",
+			"carbono_reduzido": "6 kgCO2"
+		},
+		{
+			"titulo": "Desafio da escada",
+			"horario": "Das 11h às 14h",
+			"data": "18/08/2023",
+			"lotacao": 30,
+			"inscritos": 20,
+			"recomendar": true,
+			"inscrito": true,
+			"descricao": "Aceite o desafio de subir as escadas em vez de usar o elevador. Além de economizar energia, você estará se exercitando e reduzindo a pegada de carbono.",
+			"carbono_reduzido": "4 kgCO2"
+		},
+		{
+			"titulo": "Troca de roupas",
+			"horario": "15h às 18h",
+			"data": "22/08/2023",
+			"lotacao": 40,
+			"inscritos": 15,
+			"recomendar": true,
+			"inscrito": false,
+			"descricao": "Traga suas roupas em bom estado que você não usa mais e troque por outras peças. Essa ação promove o consumo consciente e reduz a necessidade de produção de novas roupas.",
+			"carbono_reduzido": "7 kgCO2"
+		},
+		{
+			"titulo": "Limpeza de praia",
+			"horario": "10h às 12h",
+			"data": "25/08/2023",
+			"lotacao": 50,
+			"inscritos": 25,
+			"recomendar": true,
+			"inscrito": true,
+			"descricao": "Participe da limpeza de praia para remover resíduos plásticos e lixo que prejudicam o ambiente marinho. Ao evitar a poluição, você contribui para a saúde dos oceanos e reduz a pegada de carbono.",
+			"carbono_reduzido": "9 kgCO2"
+		},
+		{
+			"titulo": "Dia da conscientização energética",
+			"horario": "O dia todo",
+			"data": "28/08/2023",
+			"lotacao": 300,
+			"inscritos": 180,
+			"recomendar": true,
+			"inscrito": true,
+			"descricao": "Neste dia, desafiamos você a desligar os aparelhos eletrônicos em stand-by, apagar as luzes em ambientes não utilizados e economizar energia. Pequenas ações podem fazer grande diferença!",
+			"carbono_reduzido": "25 kgCO2"
+		},
+		{
+			"titulo": "Workshop de energia solar",
+			"horario": "14h às 16h",
+			"data": "31/08/2023",
+			"lotacao": 40,
+			"inscritos": 10,
+			"recomendar": true,
+			"inscrito": false,
+			"descricao": "Participe do workshop sobre energia solar e aprenda como essa fonte de energia renovável pode ser utilizada em residências e empresas. Reduza sua dependência de combustíveis fósseis!",
+			"carbono_reduzido": "10 kgCO2"
+		},
+		{
+			"titulo": "Feira de produtos sustentáveis",
+			"horario": "10h às 18h",
+			"data": "02/09/2023",
+			"lotacao": 100,
+			"inscritos": 40,
+			"recomendar": true,
+			"inscrito": true,
+			"descricao": "Participe da feira de produtos sustentáveis e conheça opções amigáveis ao meio ambiente, desde produtos de higiene até utensílios domésticos. Ao adotar produtos sustentáveis, você reduzirá o consumo de recursos naturais.",
+			"carbono_reduzido": "5 kgCO2"
+		},
+		{
+			"titulo": "Sessão de cinema ambiental",
+			"horario": "19h às 21h",
+			"data": "05/09/2023",
+			"lotacao": 60,
+			"inscritos": 45,
+			"recomendar": true,
+			"inscrito": true,
+			"descricao": "Assista a um filme com temática ambiental e participe de uma discussão após a sessão. A conscientização é o primeiro passo para a mudança.",
+			"carbono_reduzido": "2 kgCO2"
+		},
+		{
+			"titulo": "Semana do transporte compartilhado",
+			"horario": "Ao longo da semana",
+			"data": "10/09/2023",
+			"lotacao": 150,
+			"inscritos": 90,
+			"recomendar": true,
+			"inscrito": false,
+			"descricao": "Utilize aplicativos de carona compartilhada ou organize caronas com colegas de trabalho durante esta semana. Reduza o número de veículos nas estradas e economize recursos.",
+			"carbono_reduzido": "18 kgCO2"
+		},
+		{
+			"titulo": "Semana do ciclismo",
+			"horario": "Ao longo da semana",
+			"data": "13/09/2023",
+			"lotacao": 200,
+			"inscritos": 60,
+			"recomendar": true,
+			"inscrito": false,
+			"descricao": "Participe da Semana do Ciclismo e utilize a bicicleta como meio de transporte. Além de reduzir as emissões de carbono, você estará promovendo um estilo de vida mais saudável e ativo.",
+			"carbono_reduzido": "12 kgCO2"
+		},
+		{
+			"titulo": "Plantio de árvores",
+			"horario": "9h às 12h",
+			"data": "15/09/2023",
+			"lotacao": 50,
+			"inscritos": 10,
+			"recomendar": true,
+			"inscrito": false,
+			"descricao": "Junte-se a nós para plantar árvores em um parque local. As árvores absorvem carbono da atmosfera, contribuindo para a redução dos níveis de CO2. Traga suas luvas e disposição!",
+			"carbono_reduzido": "8 kgCO2"
+		},
+		{
+			"titulo": "Doe eletrodomésticos antigos",
+			"horario": "Dia todo",
+			"data": "20/09/2023",
+			"lotacao": 100,
+			"inscritos": 30,
+			"recomendar": true,
+			"inscrito": true,
+			"descricao": "No dia de hoje, traga seus eletrodomésticos antigos que não utiliza mais para doação. Eles serão reciclados de forma adequada, reduzindo a emissão de resíduos poluentes.",
+			"carbono_reduzido": "6 kgCO2"
+		},
+		{
+			"titulo": "Desafio da escada",
+			"horario": "Das 11h às 14h",
+			"data": "23/09/2023",
+			"lotacao": 30,
+			"inscritos": 20,
+			"recomendar": true,
+			"inscrito": true,
+			"descricao": "Aceite o desafio de subir as escadas em vez de usar o elevador. Além de economizar energia, você estará se exercitando e reduzindo a pegada de carbono.",
+			"carbono_reduzido": "4 kgCO2"
+		},
+		{
+			"titulo": "Troca de roupas",
+			"horario": "15h às 18h",
+			"data": "26/09/2023",
+			"lotacao": 40,
+			"inscritos": 15,
+			"recomendar": true,
+			"inscrito": false,
+			"descricao": "Traga suas roupas em bom estado que você não usa mais e troque por outras peças. Essa ação promove o consumo consciente e reduz a necessidade de produção de novas roupas.",
+			"carbono_reduzido": "7 kgCO2"
+		},
+		{
+			"titulo": "Limpeza de praia",
+			"horario": "10h às 12h",
+			"data": "29/09/2023",
+			"lotacao": 50,
+			"inscritos": 25,
+			"recomendar": true,
+			"inscrito": true,
+			"descricao": "Participe da limpeza de praia para remover resíduos plásticos e lixo que prejudicam o ambiente marinho. Ao evitar a poluição, você contribui para a saúde dos oceanos e reduz a pegada de carbono.",
+			"carbono_reduzido": "9 kgCO2"
+		},
+		{
+			"titulo": "Dia da conscientização energética",
+			"horario": "O dia todo",
+			"data": "02/10/2023",
+			"lotacao": 300,
+			"inscritos": 180,
+			"recomendar": true,
+			"inscrito": true,
+			"descricao": "Neste dia, desafiamos você a desligar os aparelhos eletrônicos em stand-by, apagar as luzes em ambientes não utilizados e economizar energia. Pequenas ações podem fazer grande diferença!",
+			"carbono_reduzido": "25 kgCO2"
+		}
+	]
+}

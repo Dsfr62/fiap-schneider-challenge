@@ -20,8 +20,8 @@
     padding: 0.725rem;
     margin: 0;
     border: 0.125rem solid var(--gray-dark);
-    overflow: auto;
     border-radius: 8px;
+    overflow: auto;
 }
 
 .container section .card h3 {
