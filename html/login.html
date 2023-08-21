@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/login.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/27af7ca615.js" crossorigin="anonymous"></script>
+    <script src="../js/login.js" defer></script>
+
+    <title>Login</title>
+</head>
+<body>
+    <main class="login-container">
+        <div class="login-sidebar-container">
+            <img src="../img/Logo-White.svg" alt="logo" class="logo">
+            <h1 class="renova-carbon-name"> Renova <span>Carbon</span> </h1>
+        </div>
+        <form class="form-container">
+            <span class="greeting-message">Boa Noite! </span>
+            <h1>Entre para mudar o mundo</h1>
+            
+            <div class="form-input">
+                <i class="fa-solid fa-id-card"></i>
+                <input type="text" placeholder="Insira o seu CPF" name="CPF" required/>
+            </div>
+            <div class="form-input">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Insira a sua senha" name="Password" required/>
+            </div>
+
+            <button id="form-login" type="submit">Entrar</button>
+        </form>
+    </main>
+</body>
+</html>
