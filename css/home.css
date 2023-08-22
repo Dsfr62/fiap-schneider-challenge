@@ -130,10 +130,23 @@ section h1 {
   margin-bottom: 1rem;
 }
 
-#about {
+section#about {
   background: var(--primary-default);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  padding: 2rem;
+  justify-content: space-between;
 }
 
 #about h2 {
   color: white;
+}
+
+#about .team-container {
+  width: 23.5%;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  color: var(--secondary-default);
 }
