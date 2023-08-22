@@ -1,0 +1,139 @@
+@import url("./index.css");
+
+body {
+  scroll-behavior: smooth;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  height: 5rem;
+  position: fixed;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+nav .logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav .logo img {
+  height: 100%;
+}
+
+nav .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav .menu-item {
+  transition: var(--transition);
+  color: var(--primary-default);
+}
+
+nav .menu-item:hover {
+  color: var(--primary-light)
+}
+
+nav #login-link {
+  background: var(--primary-default);
+  padding: 0.5rem 1.5rem;
+  color: white;
+  border-radius: 1rem;
+  transition: var(--transition);
+}
+
+nav #login-link:hover {
+  background: var(--primary-light);
+}
+
+.logo-name {
+  font-family: 'Righteous', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: var(--primary-default)
+}
+
+.logo-name span{
+  color: var(--secondary-default)
+}
+
+header {
+  margin-top: 5rem;
+  padding-inline: 2rem;
+  background: var(--primary-default);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+header .mockup {
+  display: grid;
+  place-items: center;
+}
+
+header .mockup img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+header .content-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}
+
+header .start-link {
+  background: var(--secondary-default);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+header .start-link:hover {
+  background: var(--secondary-light);
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+}
+
+section h2 {
+  color: var(--primary-default);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+section h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+#about {
+  background: var(--primary-default);
+}
+
+#about h2 {
+  color: white;
+}

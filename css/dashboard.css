@@ -11,6 +11,35 @@
     margin: 0;
 }
 
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.info-cards .card {
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.info-cards .card:nth-child(1) {
+    background: var(--primary-default);
+    color: white !important;
+}
+.info-cards .card:nth-child(2) {
+    background: var(--secondary-default);
+    color: white !important;
+}
+
+.info-cards .card h3 {
+    color: currentColor;
+    font-size: 1rem;
+}
+
+.info-cards .card p {
+    color: currentColor;
+    font-size: 2rem;
+}
+
 .container section .card {
     background-color: #FFFFFF;
     height: 100%;
@@ -19,21 +48,14 @@
     align-items: left;
     padding: 0.725rem;
     margin: 0;
-    border: 0.125rem solid var(--gray-dark);
-    border-radius: 8px;
+    border-radius: 1rem;
     overflow: auto;
 }
 
-.container section .card h3 {
-    margin: 0;
-    color: var(--secondary-default);
-}
-
 .container section .card p {
-    font-size: 1.725rem;
+    font-size: 2rem;
     margin: 0;
     font-weight: 600;
-    color: var(--primary-default);
 }
 
 .container section .card table {
@@ -62,4 +84,27 @@
 
 .container section .card table tr:hover .row {
     color: var(--primary-default);
+}
+
+#second-chart {
+    position: absolute;
+    bottom: -25%;
+    left: calc(50% - 4px);
+    transform: rotate(-90deg) translateY(-50%);
+}
+
+.reduction-card h2{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    font-weight: 400;
+}
+
+#reduction-value {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25%;
+    font-size: 3rem;
 }

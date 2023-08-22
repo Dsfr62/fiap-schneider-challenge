@@ -6,11 +6,16 @@ nav {
     width: 20%;
     background-color: var(--secondary-default);
     margin: 0;
-    padding: 1rem 1.25rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: left;
+    gap: 2rem;
+}
+
+nav .logo-container {
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
 }
 
 nav .logo {
@@ -20,19 +25,21 @@ nav .logo {
 
 nav ul {
     list-style-type: none;
-    padding: 0.825rem 0rem;
-    margin: 0.625rem 0 0 0;
-    gap: 1rem;
     display: flex;
     flex-direction: column;
     align-items: left;
 }
 
-nav ul li {
+nav ul li a {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 0.125rem;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+}
+
+nav ul li i {
+    font-size: 1.75rem;
+    color: var(--primary-default);
 }
 
 nav .nav-item {
@@ -41,10 +48,37 @@ nav .nav-item {
     color: #FFFFFF;
 }
 
-nav .nav-item:hover {
-    color: var(--primary-default);
+nav li:hover {
+    background: var(--secondary-light);
 }
 
-nav .nav-item#current{
+nav .current{
+    background: var(--primary-default);
+}
+
+nav .current i {
+    color: #FFFFFF
+}
+
+.nav-logout {
+    margin-top: auto;
+    padding: 1rem 1.25rem;
+}
+
+.nav-logout:hover {
+    background: var(--secondary-light);
+}
+
+.nav-logout a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-logout i {
+    font-size: 1.75rem;
     color: var(--primary-default);
 }

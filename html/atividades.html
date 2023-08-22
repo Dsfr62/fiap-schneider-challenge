@@ -1,52 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/atividades.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/27af7ca615.js" crossorigin="anonymous"></script>
+    <script src="../js/navbar.js" defer></script>
     <script src="../js/atividades.js"></script>
-    <title>Atividades</title>
+    <script src="../js/auth.js"></script>
+    
+    <title>Renova Carbon - Atividades</title>
 </head>
-<body>
-    <nav>
-        <div class="logo-container">
-            <img src="../img/Logo-Alternative.svg" alt="logo" class="logo" width="170" height="130">
-            <ul>
-                <li>
-                    <img src="../img/sidebar-icons/Dashboard.png" alt="Dashboard" />
-                    <a href="./dashboard.html" class="nav-item">Dashboard</a>
-                </li>
-                <li>
-                    <img src="../img/sidebar-icons/History.png" alt="History" />
-                    <a href="./historico.html" class="nav-item">Histórico</a>
-                </li>
-                <li>
-                    <img src="../img/sidebar-icons/Atividade.png" alt="Atividade" />
-                    <a href="./atividades.html" class="nav-item" id="current">Atividades</a>
-                </li>
-                <li>
-                    <img src="../img/sidebar-icons/Consencitzacao.png" alt="Consencitzacao" />
-                    <a href="./conscientizacao.html" class="nav-item">Conscientização</a>
-                </li>
-                <li>
-                    <img src="../img/sidebar-icons/Configuration.png" alt="Configuration" />
-                    <a href="./configuracoes.html" class="nav-item">Configurações</a>
-                </li>
-                <li>
-                    <img src="../img/sidebar-icons/Help.png" alt="Help" />
-                    <a href="./suporte.html" class="nav-item">Suporte</a>
-                </li>
-            </ul>
-        </div>
-        <a href="./index.html" class="nav-item" style="display: flex; align-items: center; gap: 0.125rem;">
-            <img src="../img/sidebar-icons/Logout.png" alt="Logout" />
-            Logout
-        </a>
-    </nav>
+
+<body data-page="atividades">
     <main class="container">
         <h1 style="text-align: center;">Confira o quadro de atividades</h1>
         <section id="atividades"></section>
-        <p class="warn">Todas as atividades contribuem para a geração de pontos que aumentarão o seu saldo de carbono*</p>
+        <p class="warn">Todas as atividades contribuem para a geração de pontos que aumentarão o seu saldo de carbono*
+        </p>
     </main>
 </body>
+
 </html>

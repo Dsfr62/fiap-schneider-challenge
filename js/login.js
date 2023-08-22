@@ -1,4 +1,3 @@
-
 const currentHours = new Date().getHours()
 const greetingMessage = (currentHours >= 12 && currentHours < 20) 
     ? 'Boa Tarde!' 
@@ -50,5 +49,20 @@ handleFormValidation()
 
 document.addEventListener("submit", (event) => {
     event.preventDefault()
-    window.location.replace = "./dashboard.html"
+    localStorage.setItem('auth', 'true')
+    if(!localStorage.getItem('medals')) {
+        localStorage.setItem('medals', JSON.stringify({
+            login: {
+                completed: true,
+                completedAt: new Date().toLocaleString('pt-br', {
+                    year: '2-digit', month: '2-digit', day: '2-digit'
+                })
+            },
+            activity: {
+                completed: false,
+                completedAt: null
+            },
+        }))
+        window.location.replace = "./dashboard.html?new=true"
+    } else window.location.replace = "./dashboard.html"
 })

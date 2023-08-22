@@ -1,75 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/dashboard.css">
-    <script src="../js/dashboard.js"></script>
-    <title>Dashboard</title>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/27af7ca615.js" crossorigin="anonymous"></script>
+    <!-- ChartJS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="../js/navbar.js" defer></script>
+    <script src="../js/dashboard.js" defer></script>
+    <script src="../js/auth.js"></script>
+    
+
+    <title>Renova Carbon - Dashboard</title>
 </head>
-<body>
-    <nav>
-        <div class="logo-container">
-            <img src="../img/Logo-Alternative.svg" alt="logo" class="logo" width="170" height="130">
-            <ul>
-                <li>
-                    <img src="../img/sidebar-icons/Dashboard.png" alt="Dashboard" />
-                    <a href="./dashboard.html" class="nav-item" id="current">Dashboard</a>
-                </li>
-                <li>
-                    <img src="../img/sidebar-icons/History.png" alt="History" />
-                    <a href="./historico.html" class="nav-item">Histórico</a>
-                </li>
-                <li>
-                    <img src="../img/sidebar-icons/Atividade.png" alt="Atividade" />
-                    <a href="./atividades.html" class="nav-item">Atividades</a>
-                </li>
-                <li>
-                    <img src="../img/sidebar-icons/Consencitzacao.png" alt="Consencitzacao" />
-                    <a href="./conscientizacao.html" class="nav-item">Conscientização</a>
-                </li>
-                <li>
-                    <img src="../img/sidebar-icons/Configuration.png" alt="Configuration" />
-                    <a href="./configuracoes.html" class="nav-item">Configurações</a>
-                </li>
-                <li>
-                    <img src="../img/sidebar-icons/Help.png" alt="Help" />
-                    <a href="./suporte.html" class="nav-item">Suporte</a>
-                </li>
-            </ul>
-        </div>
-        <a href="./index.html" class="nav-item" style="display: flex; align-items: center; gap: 0.125rem;">
-            <img src="../img/sidebar-icons/Logout.png" alt="Logout" />
-            Logout
-        </a>
-    </nav>
+
+<body data-page="dashboard">
     <main class="container" style="justify-content: space-between;">
-        <section style="height: 15%; max-height: 100px;">
-            <div class="card" style="width: 30%; justify-content: space-between;">
-                <h3>Crédito de Carbono</h3>
+        <section class="info-cards">
+            <div class="card">
+                <h3>Crédito de Carbono:</h3>
                 <p>17,73 kgCO2</p>
             </div>
-            <div class="card" style="width: 30%; justify-content: space-between;">
-                <h3>Total de Emissão</h3>
+            <div class="card">
+                <h3>Total de Emissão:</h3>
                 <p>120,90 kgCO2</p>
             </div>
-            <div class="card" style="width: 30%; justify-content: space-between;">
-                <h3>Total de Redução</h3>
+            <div class="card">
+                <h3>Total de Redução:</h3>
                 <p>103,17 kgCO2</p>
             </div>
         </section>
 
-        <section style="height: 45%; max-height: 300px;">
-            <div class="card" style="width: 50%; justify-content: space-between;">
-                Box
+        <section style="height: 45%; max-height: 400px; display: grid; grid-template-columns: 1fr 1fr;">
+            <div class="card">
+                <canvas id="first-chart">
+                </canvas>
             </div>
-            <div class="card" style="width: 50%;">
-                Box
+            <div class="card reduction-card" style="position: relative; overflow: hidden;">
+                <h2>Redução de Carbono</h2>
+                <canvas id="second-chart">
+                </canvas>
+                <span id="reduction-value">77</span>
             </div>
         </section>
 
         <section style="height: 45%; max-height: 300px;">
-            <div class="card" style="width: 100%; justify-content: start;">
+            <div class="card" style="width: 100%;">
                 <h3>Atividades recomendadas para ganhar crédito de carbono</h3>
                 <table id="atividades_recomendadas">
                     <tr>
@@ -84,4 +65,5 @@
         </section>
     </main>
 </body>
+
 </html>

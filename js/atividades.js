@@ -1,6 +1,6 @@
 
 async function handleCreateRow(data) {
-    let result = document.createElement("div")
+    const result = document.createElement("div")
     result.className = "card"
     result.innerHTML = `
         <h2>${data.titulo}</h2>
@@ -24,6 +24,47 @@ async function handleCreateRow(data) {
                 `
         }
     `
+    const button = result.querySelector('button')
+    if (!button.disabled) {
+        button.addEventListener('click', () => {
+            button.disabled = true
+            button.innerHTML = 'Inscrito'
+
+            const medals = JSON.parse(localStorage.getItem('medals'))
+            medals.activity = {
+                completed: true,
+                completedAt: new Date().toLocaleString('pt-br', {
+                    year: '2-digit', month: '2-digit', day: '2-digit'
+                })
+            }
+
+            if(medals.activity.completed) return
+
+            const medal = document.createElement('div')
+            medal.classList.add('medal')
+            medal.innerHTML = /* HTML */ `
+                <button><i class="fa-solid fa-xmark"></i></button>
+                <i class="fa-solid fa-star"></i>
+                <div>
+                    <h2>Hora do Show!</h2>
+                    <p>Inscreva-se para uma atividade</p>
+                    <a href="./medalhas.html">Ver Medalhas</a>
+                </div>
+                <div class="progress-bar"></div>
+            `
+            
+            document.body.appendChild(medal)
+        
+            const closeBtn = medal.querySelector('button')
+            closeBtn.addEventListener('click', () => medal.style.display = 'none')
+        
+            setTimeout(() => {
+                medal.style.display = 'none'
+            }, 4000)
+
+            localStorage.setItem('medals', JSON.stringify(medals))
+        })
+    }
     return result
 }
 

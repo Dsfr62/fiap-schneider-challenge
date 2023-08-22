@@ -24,9 +24,12 @@
     --primary-default: #3DCD58;
     --primary-light: #8effaa;
     --secondary-default: #242424;
+    --secondary-light: #626262;
     --gray-default: #f3f2f2;
     --gray-dark: #eeeded;
-    --red-default: #FF0000;
+    --red-default: #FF6060;
+
+    --transition: all ease-in .4s;
 }
 
 body {
@@ -49,4 +52,72 @@ body {
 
 .container h1 {
     color: var(--secondary-default);
+}
+
+.medal {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    background: var(--secondary-default);
+    z-index: 40;
+    max-width: 350px;
+    color: white;
+}
+
+.medal button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    transition: var(--transition);
+    color: var(--secondary-light);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.medal button:hover {
+    color: white
+}
+
+.medal > i {
+    font-size: 3rem;
+    color: var(--primary-default);
+}
+
+.medal p {
+    color: #717171;
+}
+
+.medal a {
+    transition: var(--transition);
+    color: var(--primary-default);
+}
+
+.medal a:hover {
+    color: var(--primary-light);
+}
+
+.medal .progress-bar {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    background: var(--primary-default);
+    animation: progress-bar forwards linear 4s;
+}
+
+@keyframes progress-bar {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
 }
