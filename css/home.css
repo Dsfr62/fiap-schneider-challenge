@@ -150,3 +150,8 @@ section#about {
   border-radius: 0.5rem;
   color: var(--secondary-default);
 }
+
+section#tools {
+  display: flex;
+  flex-direction: column;
+}
